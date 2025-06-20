@@ -1,7 +1,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { z } from "zod";
 
-const API_BASE = "http://192.168.1.8:7027/api";
+const API_BASE = "http://000.000.0.0:7027/api"; //dirección IP de máquina con puerto
 
 const server = new McpServer({
   name: "todoitem-server",
